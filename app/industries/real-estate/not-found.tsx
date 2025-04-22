@@ -1,0 +1,54 @@
+"use client";
+
+import { Building2, ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export default function RealEstateNotFound() {
+  return (
+    <main className="min-h-screen bg-gradient-to-b from-background to-muted flex items-center justify-center p-4">
+      <div className="max-w-2xl mx-auto text-center">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", duration: 0.5 }}
+          className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-8"
+        >
+          <Building2 className="w-12 h-12 text-primary" />
+        </motion.div>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="text-4xl font-bold mb-4"
+        >
+          Real Estate Page Not Found
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="text-xl text-muted-foreground mb-8"
+        >
+          The real estate page you're looking for seems to be off the market. Let's find you a better property.
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+        >
+          <Button asChild size="lg">
+            <Link href="/" className="flex items-center">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Back to Home
+            </Link>
+          </Button>
+        </motion.div>
+      </div>
+    </main>
+  );
+}
