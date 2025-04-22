@@ -35,7 +35,7 @@ export function Navigation() {
       <nav className="container flex h-24 items-center justify-between">
         <Link href="/" className="text-xl overflow-hidden">
           <Image
-            src="https://ik.imagekit.io/pcet3dvcu/dailHit/a-logo-design-showcasing-the-name-dialhi_MU7dTYG2RzeBEpYqZMCgsA_gAZqzYp5SEuadseNH6ZJmw-Photoroom.png?updatedAt=1744910756586"
+            src="https://ik.imagekit.io/pcet3dvcu/dailHit/a-modern-logo-design-featuring-the-text-_PpHAfluVTK6ttq1rjT5ysg_HneMdcufRqm8zIlSeB2jmg-Photoroom.png?updatedAt=1744910691055"
             alt={''}
             width={200}
             height={200}
