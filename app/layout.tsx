@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Elite Cold Callers | Professional Outbound Sales Team',
+  title: 'DialHit Cold Callers | Professional Outbound Sales Team',
   description: 'Professional cold calling services with fluent English-speaking agents. Specializing in real estate, solar, healthcare and more. Starting at $4/hr.',
   keywords: [
     'cold calling service',
