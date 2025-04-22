@@ -89,7 +89,7 @@ export function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="aspect-[4/3]">
                 <img
-                  src="https://voiso.com/wp-content/uploads/2025/03/sales-contact-center-hero.png"
+                  src="https://ik.imagekit.io/pcet3dvcu/dailHit/a-photograph-of-a-focused-male-sales-age_FbIbrvoGToWF8J9glcRopA_5dQPQkX0QlGZ4OEfpID8Iw.jpeg?updatedAt=1745365332150"
                   alt="Professional call center team"
                   className="object-cover w-full h-full"
                 />
