@@ -27,12 +27,12 @@ export const metadata: Metadata = {
     'professional cold callers'
   ],
   icons: {
-    icon: 'https://ik.imagekit.io/pcet3dvcu/dailHit/a-modern-logo-design-featuring-the-text-_PpHAfluVTK6ttq1rjT5ysg_HneMdcufRqm8zIlSeB2jmg.jpeg?updatedAt=1744910602841',
-    shortcut: 'https://ik.imagekit.io/pcet3dvcu/dailHit/a-modern-logo-design-featuring-the-text-_PpHAfluVTK6ttq1rjT5ysg_HneMdcufRqm8zIlSeB2jmg.jpeg?updatedAt=1744910602841',
-    apple: 'https://ik.imagekit.io/pcet3dvcu/dailHit/a-modern-logo-design-featuring-the-text-_PpHAfluVTK6ttq1rjT5ysg_HneMdcufRqm8zIlSeB2jmg.jpeg?updatedAt=1744910602841',
+    icon: 'https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867',
+    shortcut: 'https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867',
+    apple: 'https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867',
     other: {
       rel: 'apple-touch-icon',
-      url: 'https://ik.imagekit.io/pcet3dvcu/dailHit/a-modern-logo-design-featuring-the-text-_PpHAfluVTK6ttq1rjT5ysg_HneMdcufRqm8zIlSeB2jmg.jpeg?updatedAt=1744910602841',
+      url: 'https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867',
     },
   },
 };
@@ -45,7 +45,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867" />
+        <link
+          rel="icon"
+          href="https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://ik.imagekit.io/pcet3dvcu/dailHit/favicon.ico?updatedAt=1745365989867"
+        />
       </head>
       <body suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
